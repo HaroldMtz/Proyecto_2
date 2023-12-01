@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú del Curso</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Menú del Curso</h1>
+</header>
+
+<nav>
+    <a href="javascript:void(0);" onclick="openPage('actividades.html')">Actividades</a>
+    <a href="javascript:void(0);" onclick="openPage('sistema.html')">Sistema Implementado</a>
+    <a href="javascript:void(0);" onclick="openPage('codigo.html')">Código Fuente</a>
+    <a href="javascript:void(0);" onclick="openPage('reporte.html')">Reporte de Modificaciones</a>
+    <li><a href="https://github.com/TuUsuarioGitHub" target="_blank">GitHub</a></li>
+</nav>
+
+<script>
+    function openPage(pageUrl) {
+        window.open(pageUrl, '_blank');
+    }
+</script>
+
+</body>
+</html>

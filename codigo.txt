@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú del Curso</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Menú del Curso</h1>
+</header>
+
+<nav>
+    <a href="javascript:void(0);" onclick="openPage('actividades.html')">Actividades</a>
+    <a href="javascript:void(0);" onclick="openPage('sistema.html')">Sistema Implementado</a>
+    <a href="javascript:void(0);" onclick="openPage('codigo.html')">Código Fuente</a>
+    <a href="javascript:void(0);" onclick="openPage('reporte.html')">Reporte de Modificaciones</a>
+</nav>
+
+<script>
+    function openPage(pageUrl) {
+        window.open(pageUrl, '_blank');
+    }
+</script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividades del Curso</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Actividades del Curso</h1>
+</header>
+
+<section id="actividades">
+    <h2>Listado de Actividades</h2>
+    <ul>
+        <li>Actividad Preliminar: ¡Compartamos!</li>
+        <li>Actividad 1.1: Metodología ágil SCRUM</li>
+        <li>Actividad 1.2: El product backlog</li>
+        <li>Actividad Integradora: Sprint, el corazón de SCRUM</li>
+        <li>Actividad 2.1: Aplicación de SCRUM</li>
+        <li>Actividad 2.2: El sprint Shedule</li>
+        <li>Actividad Integradora: El backlog y el sprint Schedule del proyecto</li>
+        <li>Actividad Preliminar: Retomando mi primer sprint</li>
+        <li>Actividad 3.1: Primera fase de desarrollo, revisión y ajuste de los Sprints</li>
+        <li>Actividad 3.2: Segunda fase de desarrollo, revisión y ajuste de los Sprints y el backlog</li>
+        <li>Actividad 3.3: Tercera fase de desarrollo, revisión y ajuste de los Sprints y el backlog</li>
+        <li>Actividad Integradora: Producto final U3</li>
+        <li>Actividad 4.1: Reunión de revisión inicial</li>
+        <li>Actividad 4.2: Reunión para revisión de modificaciones</li>
+        <li>Producto Integrador: El final del proceso</li>
+    </ul>
+</section>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Implementado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Sistema Implementado</h1>
+</header>
+
+<section id="sistema">
+    <h2>Tecnologías Utilizadas</h2>
+    <p>En este curso, hemos utilizado las siguientes tecnologías clave:</p>
+
+    <h3>React</h3>
+    <p>React es una biblioteca de JavaScript para construir interfaces de usuario interactivas y reutilizables. A lo largo del curso, hemos aprovechado las capacidades de React para desarrollar componentes modulares y dinámicos, facilitando la creación de interfaces de usuario sofisticadas.</p>
+    <p>Algunas ventajas de React incluyen su eficiencia, su capacidad de renderizado virtual, y su enfoque en la creación de aplicaciones de una sola página (SPA).</p>
+
+    <h3>GitHub</h3>
+    <p>GitHub es una plataforma de desarrollo colaborativo que utiliza el control de versiones con Git. Hemos aprovechado GitHub para gestionar el código fuente de nuestro proyecto, colaborar en equipo, realizar seguimiento de problemas y realizar despliegues.</p>
+    <p>Entre las ventajas de GitHub se encuentran el seguimiento de cambios, la colaboración eficiente entre desarrolladores, y la posibilidad de integración continua con otras herramientas de desarrollo.</p>
+</section>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Modificaciones Realizadas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Reporte de Modificaciones Realizadas</h1>
+</header>
+
+<section id="reporte">
+    <h2>Backlogs</h2>
+    
+    <ul>
+        <li>
+            <strong>Backlog 1.0</strong>
+            <p><strong>Sprint 1:</strong>
+                <ul>
+                    <li>Captura del código de cada trabajador.</li>
+                    <li>Captura del nombre de cada trabajador.</li>
+                    <li>Captura de puesto de cada trabajador.</li>
+                </ul>
+                <strong>Sprint 2:</strong>
+                <ul>
+                    <li>Captura de edad de cada trabajador.</li>
+                    <li>Captura de sexo de cada trabajador.</li>
+                    <li>Captura de CURP de cada trabajador.</li>
+                    <li>Captura de RFC de cada trabajador.</li>
+                </ul>
+                <strong>Sprint 3:</strong>
+                <ul>
+                    <li>Recopilación de los estudios de cada profesor.</li>
+                    <li>Validación en sistema de cada grado de estudios.</li>
+                </ul>
+                <strong>Sprint 4:</strong>
+                <ul>
+                    <li>Verificación de antigüedad en sistema.</li>
+                </ul>
+                <strong>Sprint 5:</strong>
+                <ul>
+                    <li>Verificar nombramiento PTC y cambios en los mismos.</li>
+                    <li>Verificar nombramiento Asig y cambios en los mismos.</li>
+                </ul>
+                <strong>Sprint 6:</strong>
+                <ul>
+                    <li>Validar si cuenta con distinción SIN.</li>
+                </ul>
+            </p>
+            <a href="descargar/Backlog 1.0.pdf" target="_blank" download>Descargar Backlog</a>
+        </li>
+
+        <li>
+            <strong>Backlog 2.0</strong>
+            <p><strong>Sprint 1:</strong>
+                <ul>
+                    <li>Captura del código de cada trabajador.</li>
+                    <li>Implementación del nombre completo de cada trabajador.</li>
+                    <li>Agregar opciones desplegables para seleccionar el puesto de cada trabajador.</li>
+                </ul>
+                <strong>Sprint 2:</strong>
+                <ul>
+                    <li>Captura de edad de cada trabajador.</li>
+                    <li>Captura de sexo de cada trabajador.</li>
+                    <li>Captura de CURP de cada trabajador.</li>
+                    <li>Captura de RFC de cada trabajador.</li>
+                    <li>Captura de NSS de cada trabajador.</li>
+                </ul>
+                <strong>Sprint 3:</strong>
+                <ul>
+                    <li>Recopilación de los estudios de cada profesor.</li>
+                    <li>Validación en sistema de cada grado de estudios.</li>
+                </ul>
+                <strong>Sprint 4:</strong>
+                <ul>
+                    <li>Validar la antigüedad de los trabajadores en el sistema.</li>
+                </ul>
+                <strong>Sprint 5:</strong>
+                <ul>
+                    <li>Verificar nombramiento PTC y cambios en los mismos.</li>
+                    <li>Verificar nombramiento Asig y cambios en los mismos.</li>
+                </ul>
+                <strong>Sprint 6:</strong>
+                <ul>
+                    <li>Validar si cuenta con distinción SIN.</li>
+                </ul>
+                <strong>Sprint 7:</strong>
+                <ul>
+                    <li>Gestión de ingreso del personal académico.</li>
+                    <li>Gestión de rotación del personal académico.</li>
+                    <li>Gestión de bajas del personal académico.</li>
+                    <li>Agregar quienes tienen cambio de función.</li>
+                    <li>Quienes son funcionarios con descarga.</li>
+                </ul>
+            </p>
+            <a href="descargar/Backlog 2.0.pdf" target="_blank" download>Descargar Backlog</a>
+        </li>
+
+        <li>
+            <strong>Backlog final</strong>
+            <p><strong>Sprint 1:</strong>
+                <ul>
+                    <li>Captura del código de cada trabajador.</li>
+                    <li>Captura del nombre de cada trabajador.</li>
+                    <li>Captura de puesto de cada trabajador.</li>
+                </ul>
+                <strong>Sprint 2:</strong>
+                <ul>
+                    <li>Captura de edad de cada trabajador.</li>
+                    <li>Captura de sexo de cada trabajador.</li>
+                    <li>Captura de CURP de cada trabajador.</li>
+                    <li>Captura de RFC de cada trabajador.</li>
+                    <li>Captura de NSS de cada trabajador.</li>
+                </ul>
+                <strong>Sprint 3:</strong>
+                <ul>
+                    <li>Recopilación de los estudios de cada profesor.</li>
+                    <li>Validación en sistema de cada grado de estudios.</li>
+                </ul>
+                <strong>Sprint 4:</strong>
+                <ul>
+                    <li>Verificación de antigüedad en sistema.</li>
+                </ul>
+                <strong>Sprint 5:</strong>
+                <ul>
+                    <li>Verificar nombramiento PTC y cambios en los mismos.</li>
+                    <li>Verificar nombramiento Asig y cambios en los mismos.</li>
+                </ul>
+                <strong>Sprint 6:</strong>
+                <ul>
+                    <li>Validar si cuenta con distinción SIN.</li>
+                </ul>
+                <strong>Sprint 7:</strong>
+                <ul>
+                    <li>Gestión de ingreso del personal académico.</li>
+                    <li>Gestión de rotación del personal académico.</li>
+                    <li>Gestión de bajas del personal académico.</li>
+                </ul>
+            </p>
+            <a href="descargar/Backlog final.pdf" target="_blank
+
+
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+            
+            header {
+                background-color: #333;
+                color: #fff;
+                padding: 10px;
+                text-align: center;
+            }
+            
+            nav {
+                display: flex;
+                justify-content: center;
+                background-color: #444;
+                padding: 10px;
+            }
+            
+            nav a {
+                color: #fff;
+                text-decoration: none;
+                padding: 10px;
+                margin: 0 10px;
+                border-radius: 5px;
+                transition: background-color 0.3s;
+            }
+            
+            nav a:hover {
+                background-color: #555;
+            }
+            
+            section {
+                padding: 20px;
+                background-color: #fff;
+                margin: 10px;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            
